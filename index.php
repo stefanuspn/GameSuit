@@ -32,5 +32,6 @@
    <script type="text/javascript" src="dist/sweetalert.min.js?v=<?php echo filemtime('./dist/sweetalert.min.js');?>"></script>
   <script type="text/javascript" src="asset/js/Stef.js?v=<?php echo filemtime('./asset/js/Stef.js');?>"></script>
   <script type="text/javascript" src="suit.js?v=<?php echo filemtime('suit.js');?>"></script>
+  
 </body>
 </html>
