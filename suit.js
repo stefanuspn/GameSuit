@@ -1,5 +1,12 @@
 $(function() {
-   
+    _st(window).stefcode({
+      
+      ctrlcode: 85 , 
+      swal: true,
+      title:'Oops',
+      description:'Maaf Gan Tidak Bisa CTRL+U',
+      type:'error' });
+	
     $('.klik_menu').each(function() {
         $(this).click(function() {
             var link = $(this).attr('href');
